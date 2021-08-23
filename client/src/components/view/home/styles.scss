@@ -1,0 +1,49 @@
+.home {
+  overflow: hidden;
+  &__article {
+    display: flex;
+  }
+  &__imageBox {
+    width: 50%;
+    overflow: hidden;
+    transition: 0.3s linear all;
+    position: relative;
+  }
+  &__wrapper {
+    overflow: hidden;
+
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba($color: #000000, $alpha: 0.3);
+    transform: translate(-50%, -50%);
+    width: 230px;
+    height: 250px;
+    transition: 0.3s linear all;
+    border-style: solid;
+    border-radius: 16px;
+  }
+  &__img {
+    z-index: 100;
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+    transition: 0.3s linear all;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+.home__title {
+  font-family: cursive;
+  font-size: xx-large;
+}
+
+.home__button {
+  border-radius: 16px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: xx-large;
+  font-family: fantasy;
+}

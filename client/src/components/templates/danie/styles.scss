@@ -1,0 +1,60 @@
+.soup {
+  padding: 20px;
+  display: block;
+  border: 20px solid rgba(0, 0, 0, 0);
+  width: 70%;
+  flex-wrap: wrap;
+  background-color: #ccb5b5d3;
+  text-align: -webkit-center;
+  color: black;
+  top: 50%;
+  left: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imageBox {
+  width: 50%;
+}
+.infoBox {
+  width: 50%;
+  border: 1px;
+}
+.image {
+  width: 100%;
+}
+.btn__box {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+.btn {
+  padding: 20px;
+  background-color: #862222;
+  border: 12px solid rgba(59, 57, 57, 0.384);
+  border-radius: 12px;
+  font-family: cursive;
+
+  text-decoration: none;
+}
+
+body {
+  background-image: url("back.jpg");
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.soup__name {
+  font-family: Garamond, serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.people::before {
+  content: "Liczba porcji ";
+  font-weight: bold;
+  font-size: large;
+}
+.each {
+  margin: 0 auto;
+}
