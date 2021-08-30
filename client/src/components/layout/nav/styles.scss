@@ -1,13 +1,12 @@
 .navigation {
   background-color: hsla(180, 8%, 58%, 0.897);
-  border-radius: 0 0 12px 12px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   &__account {
     margin-right: 50px;
-    a{
-      color:rgb(31, 30, 22);
+    a {
+      color: rgb(31, 30, 22);
     }
   }
 }
@@ -15,16 +14,14 @@
 .navigation__logo {
   size: 20px;
   width: 10%;
- color:white;
-  margin-left:50px
-
+  color: white;
+  margin-left: 50px;
 }
 .navigation__links {
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
-  
 }
 .navigation__link {
   margin: 0 10px;
@@ -34,7 +31,7 @@
     font-size: 40px;
     text-transform: uppercase;
     text-decoration: none;
-     color: rgb(59, 65, 59);
+    color: rgb(59, 65, 59);
   }
 }
 

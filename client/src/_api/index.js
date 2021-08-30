@@ -3,7 +3,7 @@ import { API_URL } from "config";
 export async function client(endpoint, data, AuthToken, options) {
   const { ...customConfig } = options ?? {};
   const headers = { "Content-Type": "application/json" };
-  const config: RequestInit = {
+  const config = {
     method: data ? "POST" : "GET",
     body: data ? JSON.stringify(data) : undefined,
     headers: {
